@@ -27,11 +27,13 @@ const iniciarCronometro = (e) =>{
         },10);
         bandera = true;
         boton[1].innerHTML= 'stop'
+        boton[1].className= 'bg-danger'
     }
     else{
         bandera = false;
         clearInterval(intervalo);
         boton[1].innerHTML='Iniciar'
+        boton[1].className='bg-success'
         
     }
     

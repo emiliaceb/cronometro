@@ -6,3 +6,25 @@ body{
 main{
     flex-grow: 1;
 }
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+section{
+    width: 8cm !important;
+    height: 4cm;
+}
+button{
+    width: 70px; /* Puedes ajustar este valor según el tamaño deseado */
+    height: 70px; /* Asegúrate de que el alto sea igual al ancho */
+    padding: 10px;
+    border-radius: 50%; /* Hacer que el borde tenga un radio del 50% para ser redondo */
+    border: none; /* Opcional: eliminar el borde del botón */
+    color: white; /* Color del texto del botón */
+    text-align: center; /* Centrar el texto dentro del botón */
+    text-decoration: none; /* Eliminar cualquier subrayado de texto */
+    display: inline-block; /* Hacer que el botón se comporte como un elemento en línea */
+    font-size: 14px; /* Tamaño de la fuente */
+    
+}
